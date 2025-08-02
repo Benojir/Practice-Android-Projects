@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalculatorSimple" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="CalculatorButton.Number">
+        <item name="android:background">@drawable/button_number_background</item>
+    </style>
+
+    <style name="CalculatorButton.Operator">
+        <item name="android:background">@drawable/button_operator_background</item>
+        <item name="android:textColor">#FFC107</item>
+    </style>
+
+    <style name="CalculatorButton.Equals">
+        <item name="android:background">@drawable/button_equals_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
